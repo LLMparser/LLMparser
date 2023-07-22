@@ -1,4 +1,51 @@
+## Structure
+We present LLMparser repository structure below.
 
+```
+.
+├── LLMs
+│   ├── chatglm.sh
+│   ├── flan-t5-base.sh
+│   ├── flan-t5-small.sh
+│   └── llama.sh
+├── README.md
+├── chatglm
+│   ├── eval.py
+│   ├── modeling_chatglm.py
+│   ├── run_copy.sh
+│   └── train.py
+├── data_sampling.py
+├── docs
+├── env_init.sh
+├── evaluate
+│   └── evaluator.py
+├── fine_tuned_model
+├── flan-t5
+│   └── train.py
+├── llama
+│   ├── 1.py
+│   ├── Dockerfile
+│   ├── cross_eval.py
+│   ├── docker-compose.yml
+│   ├── eval.py
+│   ├── export.sh
+│   ├── export_hf_checkpoint.py
+│   ├── finetune.py
+│   ├── pyproject.toml
+│   ├── run.sh
+│   └── utils
+│       ├── README.md
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-39.pyc
+│       │   └── prompter.cpython-39.pyc
+│       ├── callbacks.py
+│       └── prompter.py
+├── logs
+│   └── ...
+├── output
+└── requirements.txt
+```
 
 
 ## Environment 
