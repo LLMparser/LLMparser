@@ -1,10 +1,20 @@
 
 
 
-## Environment and Requirement
+## Environment 
+### Requirement
 ```shell
 sh env_init.sh
 ```
+
+### Large Language Models
+
+To download the Large Language Models:
+```shell
+cd LLMs
+sh flan-t5-base.sh
+```
+
 
 ## Data sampling
 
